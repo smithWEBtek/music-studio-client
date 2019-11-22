@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Document, Page } from 'react-pdf';
+import { PDFViewer, Document, Page } from '@react-pdf/renderer';
 
 class Pdf extends Component {
   state = {
@@ -16,16 +16,19 @@ class Pdf extends Component {
 
     return (
       <div>
+
+      <PDFViewer>
         <Document
           file={this.props.url}
           onLoadSuccess={this.onDocumentLoad}
-        >
-          <Page pageNumber={pageNumber} />
+          >
+          <Page pageNumber={pageNumber} numPages={numPages} />
         </Document>
-        <p>Page {pageNumber} of {numPages}</p>
+        </PDFViewer>
       </div>
     );
   }
 }
 
 export default Pdf
+ 
