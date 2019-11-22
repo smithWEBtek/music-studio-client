@@ -1,0 +1,53 @@
+.ResourceRow {
+  color: black;
+  width: 100%;
+}
+
+.Form {
+  float: left;
+  text-align: left;
+  padding: 15px;
+  width: 60%;
+  height: 100%;
+  color: rgb(75, 67, 67);
+  font-family: 'Open Sans', sans-serif;
+}
+ 
+.Danger:hover {
+  background-color: rgb(238, 84, 84);
+}
+
+.Edit:hover {
+  background-color: rgb(250, 233, 77);
+}
+
+.Success:hover {
+  background-color: rgb(92, 243, 150);
+}
+
+.FormInstructions {
+  font-style: italic;
+  font-weight: 600;
+}
+
+th {
+    width: 3%;
+}
+
+td {
+    width: 10%;
+}
+
+.false {
+  color: rgb(238, 84, 84);
+}
+
+.true {
+  color: rgb(21, 199, 89);
+}
+
+.LikeCount {
+  font-size: 1.4em;
+  color: black;
+  text-align: center;
+}

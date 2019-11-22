@@ -1,0 +1,29 @@
+.Resource {
+  color: black;
+}
+
+.TeacherResources {
+  background-color: rgb(215, 227, 237);
+  border-radius: 15%;
+}
+
+.TeacherHeaderBackground {
+  background-color: rgb(221, 165, 165);
+}
+
+.StudentHeaderBackground {
+  background-color: rgb(221, 220, 181);
+}
+
+.ResourceHeaderBackground {
+  background-color: rgb(165, 219, 221);
+}
+
+.LessonHeaderBackground {
+  background-color: rgb(119, 182, 130);
+}
+
+.TeacherResourcesMargin {
+  margin: 15px;
+}
+ 

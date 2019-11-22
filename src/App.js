@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import MainNav from './UI/MainNav/MainNav'
+import 'bootstrap/dist/css/bootstrap.css'
+import { Route } from 'react-router-dom'
+import Aux from '../src/hoc/Aux/Aux'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Students from '../src/Students/Students'
+import Teachers from '../src/Teachers/Teachers'
+import Lessons from '../src/Lessons/Lessons'
+import Resources from '../src/Resources/Resources'
+import LessonResources from '../src/Lessons/LessonResources/LessonResources'
+
+class App extends Component {
+
+	render() {
+		return (
+			<div>
+				<MainNav />
+				<Aux>
+					<Route path="/students" component={Students} />
+					<Route path="/teachers" component={Teachers} />
+					<Route path="/lessons/" component={Lessons} />
+					<Route path="/resources" component={Resources} />
+					<Route path="/lesson_resources" component={LessonResources} />
+				</Aux>
+			</div>)
+	}
 }
 
-export default App;
+export default App

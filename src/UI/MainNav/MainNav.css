@@ -1,0 +1,51 @@
+.MainNav {
+  color: rgb(255, 255, 255);
+  background-color: rgb(198, 198, 209);
+  margin-top: 5px; 
+  border-radius: 12%;
+  /* border-top-left-radius: 50%;
+  border-top-right-radius: 50%; */
+  /* border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%; */
+}
+
+.logo-home a{
+  font-size: 2em;
+  color: rgb(212, 208, 210);
+  user-select: none;
+}
+
+.Center {
+  text-align: center;
+}
+
+.Item {
+  margin-right: 15px;
+  color: white;
+  font-size: large;
+}
+
+.Item:hover {
+  font-style: italic;
+  background-color: rgb(230, 230, 243); 
+  border-radius: 30%;
+}
+
+.LogoSpin {
+  border-radius: 50%;
+  animation: Logo-spin infinite 30s linear;
+  height: 100 px;
+}
+
+.Logo {
+  border-radius: 50%;
+  /* animation: Logo-spin infinite 30s linear; */
+  height: 100 px;
+}
+ 
+
+@keyframes Logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+ 
