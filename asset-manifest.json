@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/smithWEBtek/music-studio2/static/css/main.a0dba1c5.chunk.css",
+    "main.js": "/smithWEBtek/music-studio2/static/js/main.b491da9a.chunk.js",
+    "main.js.map": "/smithWEBtek/music-studio2/static/js/main.b491da9a.chunk.js.map",
+    "runtime-main.js": "/smithWEBtek/music-studio2/static/js/runtime-main.599484ac.js",
+    "runtime-main.js.map": "/smithWEBtek/music-studio2/static/js/runtime-main.599484ac.js.map",
+    "static/css/2.833dd627.chunk.css": "/smithWEBtek/music-studio2/static/css/2.833dd627.chunk.css",
+    "static/js/2.4bc647ae.chunk.js": "/smithWEBtek/music-studio2/static/js/2.4bc647ae.chunk.js",
+    "static/js/2.4bc647ae.chunk.js.map": "/smithWEBtek/music-studio2/static/js/2.4bc647ae.chunk.js.map",
+    "index.html": "/smithWEBtek/music-studio2/index.html",
+    "precache-manifest.19c201f009adfeb73418c4319ff51e01.js": "/smithWEBtek/music-studio2/precache-manifest.19c201f009adfeb73418c4319ff51e01.js",
+    "service-worker.js": "/smithWEBtek/music-studio2/service-worker.js",
+    "static/css/2.833dd627.chunk.css.map": "/smithWEBtek/music-studio2/static/css/2.833dd627.chunk.css.map",
+    "static/css/main.a0dba1c5.chunk.css.map": "/smithWEBtek/music-studio2/static/css/main.a0dba1c5.chunk.css.map",
+    "static/media/LogoSpin.png": "/smithWEBtek/music-studio2/static/media/LogoSpin.9fbd4e27.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.599484ac.js",
+    "static/css/2.833dd627.chunk.css",
+    "static/js/2.4bc647ae.chunk.js",
+    "static/css/main.a0dba1c5.chunk.css",
+    "static/js/main.b491da9a.chunk.js"
+  ]
+}
