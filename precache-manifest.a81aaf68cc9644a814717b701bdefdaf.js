@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f83df5e262178f39ea04442be4100b10",
+    "revision": "7c206f4f86e7198c155cae199b3b8621",
     "url": "/smithWEBtek/music-studio2/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smithWEBtek/music-studio2/static/css/2.833dd627.chunk.css"
   },
   {
-    "revision": "e00c3fa7c4c30d495bb4",
+    "revision": "7eef183578bd5197368a",
     "url": "/smithWEBtek/music-studio2/static/css/main.2da34fcc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smithWEBtek/music-studio2/static/js/2.039a6ba1.chunk.js"
   },
   {
-    "revision": "e00c3fa7c4c30d495bb4",
-    "url": "/smithWEBtek/music-studio2/static/js/main.6b04812e.chunk.js"
+    "revision": "7eef183578bd5197368a",
+    "url": "/smithWEBtek/music-studio2/static/js/main.5e1e15b7.chunk.js"
   },
   {
     "revision": "0b67966c911b6974cae7",

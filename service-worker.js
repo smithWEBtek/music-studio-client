@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/smithWEBtek/music-studio2/precache-manifest.2d8ab5305183ee843056ffd1e3fbd9a0.js"
+  "/smithWEBtek/music-studio2/precache-manifest.a81aaf68cc9644a814717b701bdefdaf.js"
 );
 
 self.addEventListener('message', (event) => {
