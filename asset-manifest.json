@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/smithWEBtek/music-studio2/static/css/main.2da34fcc.chunk.css",
-    "main.js": "/smithWEBtek/music-studio2/static/js/main.5e1e15b7.chunk.js",
-    "main.js.map": "/smithWEBtek/music-studio2/static/js/main.5e1e15b7.chunk.js.map",
-    "runtime-main.js": "/smithWEBtek/music-studio2/static/js/runtime-main.599484ac.js",
-    "runtime-main.js.map": "/smithWEBtek/music-studio2/static/js/runtime-main.599484ac.js.map",
-    "static/css/2.833dd627.chunk.css": "/smithWEBtek/music-studio2/static/css/2.833dd627.chunk.css",
-    "static/js/2.039a6ba1.chunk.js": "/smithWEBtek/music-studio2/static/js/2.039a6ba1.chunk.js",
-    "static/js/2.039a6ba1.chunk.js.map": "/smithWEBtek/music-studio2/static/js/2.039a6ba1.chunk.js.map",
-    "index.html": "/smithWEBtek/music-studio2/index.html",
-    "precache-manifest.a81aaf68cc9644a814717b701bdefdaf.js": "/smithWEBtek/music-studio2/precache-manifest.a81aaf68cc9644a814717b701bdefdaf.js",
-    "service-worker.js": "/smithWEBtek/music-studio2/service-worker.js",
-    "static/css/2.833dd627.chunk.css.map": "/smithWEBtek/music-studio2/static/css/2.833dd627.chunk.css.map",
-    "static/css/main.2da34fcc.chunk.css.map": "/smithWEBtek/music-studio2/static/css/main.2da34fcc.chunk.css.map",
-    "static/media/LogoSpin.png": "/smithWEBtek/music-studio2/static/media/LogoSpin.9fbd4e27.png"
+    "main.css": "/music-studio2/static/css/main.2da34fcc.chunk.css",
+    "main.js": "/music-studio2/static/js/main.5e1e15b7.chunk.js",
+    "main.js.map": "/music-studio2/static/js/main.5e1e15b7.chunk.js.map",
+    "runtime-main.js": "/music-studio2/static/js/runtime-main.4c0b864d.js",
+    "runtime-main.js.map": "/music-studio2/static/js/runtime-main.4c0b864d.js.map",
+    "static/css/2.833dd627.chunk.css": "/music-studio2/static/css/2.833dd627.chunk.css",
+    "static/js/2.dc6f11f4.chunk.js": "/music-studio2/static/js/2.dc6f11f4.chunk.js",
+    "static/js/2.dc6f11f4.chunk.js.map": "/music-studio2/static/js/2.dc6f11f4.chunk.js.map",
+    "index.html": "/music-studio2/index.html",
+    "precache-manifest.bada835ef473967bbda4d05b66408fc8.js": "/music-studio2/precache-manifest.bada835ef473967bbda4d05b66408fc8.js",
+    "service-worker.js": "/music-studio2/service-worker.js",
+    "static/css/2.833dd627.chunk.css.map": "/music-studio2/static/css/2.833dd627.chunk.css.map",
+    "static/css/main.2da34fcc.chunk.css.map": "/music-studio2/static/css/main.2da34fcc.chunk.css.map",
+    "static/media/LogoSpin.png": "/music-studio2/static/media/LogoSpin.9fbd4e27.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.599484ac.js",
+    "static/js/runtime-main.4c0b864d.js",
     "static/css/2.833dd627.chunk.css",
-    "static/js/2.039a6ba1.chunk.js",
+    "static/js/2.dc6f11f4.chunk.js",
     "static/css/main.2da34fcc.chunk.css",
     "static/js/main.5e1e15b7.chunk.js"
   ]
