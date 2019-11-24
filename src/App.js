@@ -14,7 +14,6 @@ class App extends Component {
 	render() {
 		return (
 			<HashRouter basename='/'>
-				<div>
 					<MainNav />
 					<Aux>
 						<Route exact path="/" component={Students} />
@@ -24,7 +23,6 @@ class App extends Component {
 						<Route path="/resources" component={Resources} />
 						<Route path="/lesson_resources" component={LessonResources} />
 					</Aux>
-				</div>
 			</HashRouter>)
 	}
 }
