@@ -11,15 +11,13 @@ import Resources from '../src/Resources/Resources'
 import LessonResources from '../src/Lessons/LessonResources/LessonResources'
 
 class App extends Component {
- 
-	
-	
 	render() {
 		return (
 			<HashRouter basename='/'>
 				<div>
 					<MainNav />
 					<Aux>
+						<Route exact path="/" component={Students} />
 						<Route path="/students" component={Students} />
 						<Route path="/teachers" component={Teachers} />
 						<Route path="/lessons/" component={Lessons} />
