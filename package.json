@@ -1,8 +1,8 @@
 {
   "name": "music-studio2",
-  "homepage": "https://github.com/smithWEBtek/music-studio2/",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://smithwebtek.github.io/smithWEBtek/music-studio2",
   "dependencies": {
     "@react-pdf/renderer": "^1.6.8",
     "autoprefixer": "7.1.6",
