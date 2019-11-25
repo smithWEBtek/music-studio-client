@@ -14,7 +14,7 @@ const ResourceViewer = (props) => {
       <p>This resource has not been created yet. </p>
     </div>
   )
-
+debugger
   if (props.resource.format === 'pdf' && props.resource.url !== 'no_url_given') {
     renderResource = <Pdf url={props.resource.url} />
   }
@@ -34,7 +34,7 @@ const ResourceViewer = (props) => {
   }
 
   return (
-    <div>
+    <div className="ResourceViewer">
       {renderResource}
     </div>
   )
