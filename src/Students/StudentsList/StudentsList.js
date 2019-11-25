@@ -4,11 +4,7 @@ import { Table } from 'reactstrap'
 import './StudentsList.css'
 
 const StudentsList = (props) => {
-
-  // let sortedStudents = props.students.sort((a, b) => a.lastname.toLowerCase() < b.lastname.toLowerCase() ? -1 : a.lastname.toLowerCase() > b.lastname.toLowerCase() ? 1 : 0)
-  console.log(props.students)
   let sortedStudents = props.students.sort((a, b) => a.likes > b.likes ? -1 : a.likes < b.likes ? 1 : 0)
-
   let renderStudents = sortedStudents.map((student, index) => {
     return (
       <StudentRow
@@ -17,6 +13,7 @@ const StudentsList = (props) => {
         edit={props.edit}
         deleteStudent={props.deleteStudent}
         likeStudent={props.likeStudent}
+        likes={student.likes}
       />
     )
   })
@@ -37,7 +34,7 @@ const StudentsList = (props) => {
             {props.edit ? <th>Edit</th> : null}
             {props.deleteStudent ? <th>X</th> : null}
             {props.likeStudent ? <th>Like</th> : null}
-            {props.likeStudent ? <th>Count</th> : null}
+            {props.likes ? <th>Count</th> : null}
           </tr>
         </thead>
         <tbody>

@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import Aux from '../../hoc/Aux/Aux'
 
 const StudentRow = (props) => {
-
 	return (
 		<Aux>
 			<tr>
@@ -22,7 +21,6 @@ const StudentRow = (props) => {
 				<td>{props.student.email}</td>
 				<td>{props.student.teacher_id}</td>
 				<td>{props.student.level}</td>
-
 				<td className={props.student.active.toString()}>{props.student.active.toString()}</td>
 
 				<td><button

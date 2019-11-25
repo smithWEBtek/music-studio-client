@@ -77,11 +77,9 @@ class Students extends Component {
 
 	//********LIKE_STUDENT handling****************
 	likeStudent = (id) => {
-		let { history } = this.props
-		history.push('/students')
 		let student = this.props.students.find(stu => stu.id === id)
 		let data = Object.assign({}, student, { likes: student.likes + 1 })
-		this.props.onUpdateStudent(data, history)
+		this.props.onUpdateStudent(data)
 	}
 
 	render() {
@@ -155,7 +153,7 @@ const mapDispatchToProps = dispatch => {
 	return {
 		onFetchStudents: () => dispatch(actions.fetchStudents()),
 		onCreateStudent: (data, history) => dispatch(actions.createStudent(data, history)),
-		// onUpdateStudent: (data, history) => dispatch(actions.updateStudent(data, history)),
+		onUpdateStudent: (data, history) => dispatch(actions.updateStudent(data, history)),
 		onDeleteStudent: (id, history) => dispatch(actions.deleteStudent(id, history))
 	}
 }
