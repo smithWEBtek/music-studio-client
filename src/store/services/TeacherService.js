@@ -1,4 +1,4 @@
-const API_URL = 'https://music-studio-api.herokuapp.com/api'
+const API_URL = 'https://music-studio-api.smithwebtek.com'
 
 const TeacherService = {
   createTeacher(teacher) {
