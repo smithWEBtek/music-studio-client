@@ -1,6 +1,6 @@
-const API_URL = 'https://music-studio-api.smithwebtek.com'
-const LessonResourceService = {
+const API_URL = process.env.REACT_APP_API_URL
 
+const LessonResourceService = {
   createLessonResource(data) {
     const request = {
       method: 'POST',

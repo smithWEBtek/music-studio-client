@@ -1,4 +1,4 @@
-const API_URL = 'https://music-studio-api.smithwebtek.com'
+const API_URL = process.env.REACT_APP_API_URL
 
 const StudentService = {
   createStudent(student) {
