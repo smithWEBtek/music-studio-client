@@ -7,14 +7,14 @@ const LessonService = {
       body: JSON.stringify({ lesson: lesson }),
       headers: { 'Content-Type': 'application/json' }
     }
-    return fetch(`${API_URL}/lessons`, request)
+    return fetch(`${API_URL}lessons`, request)
       .then(response => response.json())
       .catch(error => {
         console.log('[LessonService][createLesson] ERROR: ', error)
       })
   },
   fetchLessons() {
-    return fetch(`${API_URL}/lessons`)
+    return fetch(`${API_URL}lessons`)
       .then(response => response.json())
       .catch(error => {
         console.log('[LessonService][fetchLessons] ERROR: ', error)
@@ -26,7 +26,7 @@ const LessonService = {
       body: JSON.stringify({ lesson: data }),
       headers: { 'Content-Type': 'application/json' }
     }
-    return fetch(`${API_URL}/lessons/${data.id}`, request)
+    return fetch(`${API_URL}lessons/${data.id}`, request)
       .then(response => response.json())
       .catch(error => {
         console.log('[LessonService][updateLesson] ERROR: ', error)
@@ -38,7 +38,7 @@ const LessonService = {
       body: JSON.stringify({ id: id }),
       headers: { 'Content-Type': 'application/json' }
     }
-    return fetch(`${API_URL}/lessons/${id}`, request)
+    return fetch(`${API_URL}lessons/${id}`, request)
       .then(response => response.json())
       .catch(error => {
         console.log('[LessonService][deleteLesson] ERROR: ', error)
