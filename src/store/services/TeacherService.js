@@ -8,14 +8,15 @@ const TeacherService = {
       body: JSON.stringify({ teacher: teacher }),
       headers: { 'Content-Type': 'application/json' }
     }
-    return fetch(`${API_URL}/teachers`, request)
+    return fetch(`${API_URL}teachers`, request)
       .then(response => response.json())
       .catch(error => {
         console.log('[TeacherService][createTeacher] ERROR: ', error)
       })
   },
   fetchTeachers() {
-    return fetch(`${API_URL}/teachers`)
+    console.log('API_URL: ', API_URL)
+    return fetch(`${API_URL}teachers`)
       .then(response => response.json())
       .catch(error => {
         console.log('[TeacherService][fetchTeachers] ERROR: ', error)
@@ -27,7 +28,7 @@ const TeacherService = {
       body: JSON.stringify({ teacher: data }),
       headers: { 'Content-Type': 'application/json' }
     }
-    return fetch(`${API_URL}/teachers/${data.id}`, request)
+    return fetch(`${API_URL}teachers/${data.id}`, request)
       .then(response => response.json())
       .catch(error => {
         console.log('[TeacherService][updateTeacher] ERROR: ', error)
@@ -39,7 +40,7 @@ const TeacherService = {
       body: JSON.stringify({ id: id }),
       headers: { 'Content-Type': 'application/json' }
     }
-    return fetch(`${API_URL}/teachers/${id}`, request)
+    return fetch(`${API_URL}teachers/${id}`, request)
       .then(response => response.json())
       .catch(error => {
         console.log('[TeacherService][deleteTeacher] ERROR: ', error)

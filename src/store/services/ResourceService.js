@@ -7,14 +7,14 @@ const ResourceService = {
       body: JSON.stringify({ resource: resource }),
       headers: { 'Content-Type': 'application/json' }
     }
-    return fetch(`${API_URL}/resources`, request)
+    return fetch(`${API_URL}resources`, request)
       .then(response => response.json())
       .catch(error => {
         console.log('[ResourceService][createResource] ERROR: ', error)
       })
   },
   fetchResources() {
-    return fetch(`${API_URL}/resources`)
+    return fetch(`${API_URL}resources`)
       .then(response => response.json())
       .catch(error => {
         console.log('[ResourceService][fetchResources] ERROR: ', error)
@@ -26,7 +26,7 @@ const ResourceService = {
       body: JSON.stringify({ resource: data }),
       headers: { 'Content-Type': 'application/json' }
     }
-    return fetch(`${API_URL}/resources/${data.id}`, request)
+    return fetch(`${API_URL}resources/${data.id}`, request)
       .then(response => response.json())
       .catch(error => {
         console.log('[ResourceService][updateResource] ERROR: ', error)
@@ -38,7 +38,7 @@ const ResourceService = {
       body: JSON.stringify({ id: id }),
       headers: { 'Content-Type': 'application/json' }
     }
-    return fetch(`${API_URL}/resources/${id}`, request)
+    return fetch(`${API_URL}resources/${id}`, request)
       .then(response => response.json())
       .catch(error => {
         console.log('[ResourceService][deleteResource] ERROR: ', error)

@@ -4,8 +4,7 @@ import { Table } from 'reactstrap'
 import './LessonsList.css'
 
 const LessonsList = (props) => {
-
-  const renderLessons = props.lessons.sort((a, b) => a.date > b.date ? -1 : a.date < b.date ? 1 : 0).map((lesson, index) => {
+  const renderLessons = () => props.lessons && props.lessons.sort((a, b) => a.date > b.date ? -1 : a.date < b.date ? 1 : 0).map((lesson, index) => {
     return (
       <tr key={index}>
         <th scope="row">{lesson.id}</th>
@@ -75,7 +74,7 @@ const LessonsList = (props) => {
         </tr>
       </thead>
       <tbody>
-        {renderLessons}
+        {renderLessons()}
       </tbody>
     </Table>
   )

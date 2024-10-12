@@ -7,14 +7,14 @@ const StudentService = {
       body: JSON.stringify({ student: student }),
       headers: { 'Content-Type': 'application/json' }
     }
-    return fetch(`${API_URL}/students`, request)
+    return fetch(`${API_URL}students`, request)
       .then(response => response.json())
       .catch(error => {
         console.log('[StudentService][createStudent] ERROR: ', error)
       })
   },
   fetchStudents() {
-    return fetch(`${API_URL}/students`)
+    return fetch(`${API_URL}students`)
       .then(response => response.json())
       .catch(error => {
         console.log('[StudentService][fetchStudents] ERROR: ', error)
@@ -26,7 +26,7 @@ const StudentService = {
       body: JSON.stringify({ student: data }),
       headers: { 'Content-Type': 'application/json' }
     }
-    return fetch(`${API_URL}/students/${data.id}`, request)
+    return fetch(`${API_URL}students/${data.id}`, request)
       .then(response => response.json())
       .catch(error => {
         console.log('[StudentService][updateStudent] ERROR: ', error)
@@ -38,7 +38,7 @@ const StudentService = {
       body: JSON.stringify({ id: id }),
       headers: { 'Content-Type': 'application/json' }
     }
-    return fetch(`${API_URL}/students/${id}`, request)
+    return fetch(`${API_URL}students/${id}`, request)
       .then(response => response.json())
       .catch(error => {
         console.log('[StudentService][deleteStudent] ERROR: ', error)
